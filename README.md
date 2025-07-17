@@ -1,5 +1,5 @@
-# pur078bctcd
-Graphics to represent the year 2078 Batch of BCT CD of Purwanchal Campus
+# PUR078BCT
+Graphics for 2078 Batch of BCT, Purwanchal Campus (IOE) 
 
 # Kitty Config
 ```conf
