@@ -270,7 +270,7 @@ class_names = [
     "RAJAT PRADHAN",
     "RAJAT CHANDRA JHA",
     "RAJESH PANDEY",
-    "RAM CHANDRA GHIMIRE",
+    "RAMCHANDRA GHIMIRE",
     "RANJIT ADHIKARI",
     "RATAN THAPA",
     "RAVI PANDIT",
@@ -310,10 +310,6 @@ class_names = [
 # Create and generate crossword
 crossword = NameCrossword(width=60, height=35)
 first_names = crossword.extract_first_names(class_names)
-
-print("First names extracted:")
-for name in sorted(first_names):
-    print(f"  {name}")
 
 crossword.generate_crossword(first_names)
 
